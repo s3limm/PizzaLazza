@@ -1,6 +1,6 @@
 .bg
 {
-  background-image: url(pasta.jpg);
+  background-image: url(/pictures/cinematic.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@
 
 .title{
 
-font-size: 45px;
+font-size: 65px;
 font-weight: bold;
 color: floralwhite;
 }
@@ -20,7 +20,6 @@ color: floralwhite;
   width: 100%;
   text-align: center;
   top: 50%;
-  
 }
 
 h2{
@@ -38,6 +37,10 @@ h2{
   color: grey;
 }
 
+img
+{
+height: 300px;
+}
 
 
     
