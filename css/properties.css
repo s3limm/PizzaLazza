@@ -1,0 +1,102 @@
+
+.bg::before {
+  content: "";
+  display:block ;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+.bg
+{
+  background-image:url(/DeliveringFood/pictures/cinematic.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 1080px;  
+  filter: blur(3px);
+
+}
+
+
+.header h1{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 150px;
+  line-height: 170px;
+  margin-left: -10px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff ;
+  background: url(/DeliveringFood/pictures/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+animation: back 20s linear infinite;
+
+}
+
+@keyframes back
+{
+  100%
+  {
+    background-position: 1400px 0;
+  }
+}
+
+.header{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+
+  
+}
+
+h2{
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h5{
+
+  font-weight: bold ;
+font-size: 25px;
+}
+
+#h4
+{
+  text-align: center;
+  font-weight: lighter;
+  font-size: 15px;
+  color: grey;
+}
+
+img
+{
+  height: auto;
+}
+
+.row {
+  padding: 10px; 
+}
+    
+
+.price
+{
+font-weight: bolder;
+color: chocolate;
+font-size: 20px;
+}
+
+.a{
+text-align: center;
+
+}
+
+
+
