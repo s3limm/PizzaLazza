@@ -1,60 +1,55 @@
-
 .bg::before {
   content: "";
-  display:block ;
-  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   inset: 0;
   width: 100%;
-  height: 100%;
-  }
+  height: 123%;
 
-.bg
-{
-  background-image:url(/DeliveringFood/pictures/cinematic.jpg); 
+}
+
+.bg {
+  background-image: url(/pictures/paperoni.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
-  height: 1080px;  
-  filter: blur(3px);
+  height: 1080px;
+
 
 }
 
 
-.header h1{
+.header h1 {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 150px;
-  line-height: 170px;
-  margin-left: -10px;
+  font-size: 140px;
+  line-height: 120px;
+  margin-left: -1450px;
   color: transparent;
-  -webkit-text-stroke: 1px #fff ;
-  background: url(/DeliveringFood/pictures/back.png);
+  -webkit-text-stroke: 1px #fff;
+  background: url(/pictures/fire.png);
   -webkit-background-clip: text;
   background-position: 0 0;
-animation: back 20s linear infinite;
+  animation: back 50s linear infinite;
 
 }
 
-@keyframes back
-{
-  100%
-  {
+@keyframes back {
+  100% {
     background-position: 1400px 0;
   }
 }
 
-.header{
+.header {
   position: absolute;
   width: 100%;
   text-align: center;
   top: 50%;
-
-  
 }
 
-h2{
+h2 {
   text-align: center;
   color: black;
   font-size: 50px;
@@ -62,41 +57,69 @@ h2{
   font-family: 'Times New Roman', Times, serif;
 }
 
-h5{
+h5 {
 
-  font-weight: bold ;
-font-size: 25px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
-#h4
-{
+#h4 {
   text-align: center;
   font-weight: lighter;
   font-size: 15px;
   color: grey;
 }
 
-img
-{
+img {
   height: auto;
 }
 
 .row {
-  padding: 10px; 
-}
-    
-
-.price
-{
-font-weight: bolder;
-color: chocolate;
-font-size: 20px;
-}
-
-.a{
-text-align: center;
-
+  padding: 10px;
 }
 
 
+.price {
+  font-weight: bolder;
+  color: chocolate;
+  font-size: 20px;
+}
 
+.a {
+  text-align: center;
+
+}
+
+.button {
+  transition: .6s;
+  margin-left: -1650px;
+  margin-top: 30px;
+  background: transparent;
+  color: white;
+  border-radius: 30px;
+  border: 1px solid white;
+  padding: 8px 20px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: rgb(207, 59, 0);
+  border: 1px solid black;
+  transition: .6s;
+  color: white;
+  transform:scale(1.2);
+  font-weight: 600;
+}
+
+.text {
+  max-width: 100%;
+  width: 700px;
+  color: white;
+  line-height: 2.2;
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 40px;
+  margin-left: 70px;
+  text-align: justify;
+}
