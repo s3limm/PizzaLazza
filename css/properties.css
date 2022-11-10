@@ -10,7 +10,7 @@
 }
 
 .bg {
-  background-image: url(/pictures/paperoni.jpg);
+  background-image: url(/pictures/wall.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,28 +21,10 @@
 }
 
 
-.header h1 {
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 140px;
-  line-height: 120px;
-  margin-left: -1450px;
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
-  background: url(/pictures/fire.png);
-  -webkit-background-clip: text;
-  background-position: 0 0;
-  animation: back 50s linear infinite;
 
-}
 
-@keyframes back {
-  100% {
-    background-position: 1400px 0;
-  }
-}
 
-.header {
+.content {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -51,7 +33,7 @@
 
 h2 {
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: 400;
   font-family: 'Times New Roman', Times, serif;
@@ -61,13 +43,14 @@ h5 {
 
   font-weight: bold;
   font-size: 25px;
+  color: antiquewhite;
 }
 
 #h4 {
   text-align: center;
   font-weight: lighter;
   font-size: 15px;
-  color: grey;
+  color: rgb(219, 219, 219);
 }
 
 img {
@@ -122,4 +105,9 @@ img {
   margin-top: 40px;
   margin-left: 70px;
   text-align: justify;
+}
+
+.card
+{
+  background-color: rgb(20, 20, 20);
 }
